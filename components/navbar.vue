@@ -2,8 +2,8 @@
   <div class="navbar">
     <div class="header">
       <div class="icon">
-        <img src="/logo.png" alt="Nextron Logo" height="30px" class="header-img" />
         <nuxt-link id="home" to="/">
+          <img src="/logo.png" alt="Nextron Logo" height="30px" class="header-img" />
         </nuxt-link>
       </div>
       <div class="spacer"></div>
@@ -139,11 +139,13 @@ export default {
 }
 
 .navbar {
-  position: relative;
+  position: fixed;
   width: 100%;
   max-width: 1200px;
   margin: auto;
   box-sizing: border-box;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .header {
