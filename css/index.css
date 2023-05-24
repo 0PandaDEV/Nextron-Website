@@ -16,7 +16,7 @@
 }
 
 body {
-  background: #161b22 !important;
+  background: #161b22;
   box-sizing: border-box;
   color: white;
   line-height: 1.5;
@@ -349,6 +349,7 @@ section {
   list-style: none;
   font-weight: 500;
   margin-bottom: 0.65rem;
+  white-space: nowrap;
 }
 
 .icon-done {

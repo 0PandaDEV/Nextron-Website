@@ -33,20 +33,6 @@
   </div>
 </template>
 
-<script lang="ts">
-export default {
-  async mounted() {
-    var link = document.getElementById("home")
-    var body = document.getElementsByTagName("body")
-    if (link?.classList.contains("router-link-active")) {
-      body[0].classList.add("bright")
-    } else {
-      body[0].classList.remove("bright")
-    }
-  }
-}
-</script>
-
 <style>
 @media (min-width: 600px) {
 

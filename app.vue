@@ -6,8 +6,4 @@
   </div>
 </template>
 
-<style>
-.bright {
-  background: #161b22 !important;
-}
-</style>
+<style></style>
