@@ -139,13 +139,11 @@ export default {
 }
 
 .navbar {
-  position: fixed;
+  position: relative;
   width: 100%;
   max-width: 1200px;
   margin: auto;
   box-sizing: border-box;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 .header {

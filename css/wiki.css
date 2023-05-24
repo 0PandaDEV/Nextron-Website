@@ -16,7 +16,6 @@ body {
   display: flex;
   position: relative;
   padding-bottom: 0;
-  top: 100px;
 }
 
 .content {
