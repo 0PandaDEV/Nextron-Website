@@ -66,10 +66,10 @@
                 </li>
               </ul>
             </div>
-            <img src="1.png" loading="lazy" alt="1" class="section-image">
+            <img src="/1.png" loading="lazy" alt="1" class="section-image">
           </div>
           <div class="section section-2 reveal-content">
-            <img src="2.png" loading="lazy" alt="2" class="section-image">
+            <img src="/2.png" loading="lazy" alt="2" class="section-image">
             <div class="section-description">
               <div class="section-title">Tons of commands.</div>
               <div class="section-text">Nextron has tons of useful utility commands that makes your life as a player
@@ -111,10 +111,10 @@
                 </li>
               </ul>
             </div>
-            <img src="3.png" loading="lazy" alt="3" class="section-image">
+            <img src="/3.png" loading="lazy" alt="3" class="section-image">
           </div>
           <div class="section section-4 reveal-content">
-            <img src="4.png" loading="lazy" alt="4" class="section-image">
+            <img src="/4.png" loading="lazy" alt="4" class="section-image">
             <div class="section-description">
               <div class="section-title">Fully documented.</div>
               <div class="section-text">Nextron has an extensive wiki where every section is explained to you, from
