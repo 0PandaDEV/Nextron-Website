@@ -163,6 +163,34 @@ export default {
     }
   }
 }
+
+useSeoMeta({
+  ogTitle: 'Nextron',
+  ogDescription: "Nextron is a powerful plugin for every Minecraft server. It adds useful features that enhance the game.",
+  ogImage: '/logo.png',
+  ogUrl: 'https://nextron.tk',
+  twitterTitle: 'Nextron',
+  twitterDescription: "Nextron is a powerful plugin for every Minecraft server. It adds useful features that enhance the game.",
+  twitterImage: '/logo.png',
+  twitterCard: 'summary'
+})
+
+useHead({
+  title: 'Nextron',
+  meta: [{
+    name: 'description', content: "Nextron is a powerful plugin for every Minecraft server. It adds useful features that enhance the game."
+  }],
+  htmlAttrs: {
+    lang: 'en'
+  },
+  link: [
+    {
+      rel: 'icon',
+      type: 'image/png',
+      href: '/favicon.ico'
+    }
+  ]
+})
 </script>
 
 <style>
