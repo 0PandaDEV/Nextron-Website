@@ -163,7 +163,9 @@ export default {
     }
   }
 }
+</script>
 
+<script setup lang="ts">
 useSeoMeta({
   ogTitle: 'Nextron',
   ogDescription: "Nextron is a powerful plugin for every Minecraft server. It adds useful features that enhance the game.",
