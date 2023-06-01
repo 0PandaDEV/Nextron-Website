@@ -171,6 +171,8 @@ useSeoMeta({
   ogDescription: "Nextron is a powerful plugin for every Minecraft server. It adds useful features that enhance the game.",
   ogImage: '/logo.png',
   ogUrl: 'https://nextron.tk',
+  ogType: 'website',
+  ogSiteName: 'Nextron',
   twitterTitle: 'Nextron',
   twitterDescription: "Nextron is a powerful plugin for every Minecraft server. It adds useful features that enhance the game.",
   twitterImage: '/logo.png',

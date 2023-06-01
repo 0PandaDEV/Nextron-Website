@@ -11,6 +11,8 @@ useSeoMeta({
   ogDescription: "Configuration, see any config values that you can modify.",
   ogImage: '/logo.png',
   ogUrl: 'https://essentialsp.tk/wiki/configuration',
+  ogType: 'website',
+  ogSiteName: 'Nextron - Configuration',
   twitterTitle: 'Nextron - Configuration',
   twitterDescription: "Configuration, see any config values that you can modify.",
   twitterImage: '/logo.png',

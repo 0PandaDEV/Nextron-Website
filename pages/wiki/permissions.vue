@@ -11,6 +11,8 @@ useSeoMeta({
   ogDescription: "Permissions, see all the permissions of the plugin.",
   ogImage: '/logo.png',
   ogUrl: 'https://essentialsp.tk/wiki/permissions',
+  ogType: 'website',
+  ogSiteName: 'Nextron - Permissions',
   twitterTitle: 'Nextron - Permissions',
   twitterDescription: "Permissions, see all the permissions of the plugin.",
   twitterImage: '/logo.png',

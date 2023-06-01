@@ -28,6 +28,8 @@ useSeoMeta({
   ogDescription: "Landing page, all the essential things you need to know.",
   ogImage: '/logo.png',
   ogUrl: 'https://essentialsp.tk/wiki/landing-page',
+  ogType: 'website',
+  ogSiteName: 'Nextron - Landing page',
   twitterTitle: 'Nextron - Landing page',
   twitterDescription: "Landing page, all the essential things you need to know.",
   twitterImage: '/logo.png',

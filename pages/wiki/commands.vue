@@ -11,6 +11,8 @@ useSeoMeta({
   ogDescription: "Commands, see all the commands in the plugin.",
   ogImage: '/logo.png',
   ogUrl: 'https://essentialsp.tk/wiki/commands',
+  ogType: 'website',
+  ogSiteName: 'Nextron - Commands',
   twitterTitle: 'Nextron - Commands',
   twitterDescription: "Commands, see all the commands in the plugin.",
   twitterImage: '/logo.png',
