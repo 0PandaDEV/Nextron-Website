@@ -22,6 +22,36 @@
   </NuxtLayout>
 </template>
 
+<script setup lang="ts">
+useSeoMeta({
+  ogTitle: 'Nextron - Landing page',
+  ogDescription: "Landing page, all the essential things you need to know.",
+  ogImage: '/logo.png',
+  ogUrl: 'https://essentialsp.tk/wiki/landing-page',
+  twitterTitle: 'Nextron - Landing page',
+  twitterDescription: "Landing page, all the essential things you need to know.",
+  twitterImage: '/logo.png',
+  twitterCard: 'summary'
+})
+
+useHead({
+  title: 'Nextron - Landing page',
+  meta: [{
+    name: 'description', content: "Landing page, all the essential things you need to know."
+  }],
+  htmlAttrs: {
+    lang: 'en'
+  },
+  link: [
+    {
+      rel: 'icon',
+      type: 'image/png',
+      href: '/favicon.ico'
+    }
+  ]
+})
+</script>
+
 <style>
 .quote {
   margin: 30px;
