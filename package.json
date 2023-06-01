@@ -1,5 +1,5 @@
 {
-  "name": "nuxt-app",
+  "name": "nextron-webapp",
   "private": true,
   "scripts": {
     "build": "nuxt build",
@@ -9,6 +9,7 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@nuxt/devtools": "^0.5.5",
     "@types/node": "^18",
     "nuxt": "^3.5.2"
   }
