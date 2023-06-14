@@ -3,11 +3,13 @@
     <h2 class="pre-title">Introduction</h2>
     <h1 class="title">Getting Help</h1>
 
-    <p class="quote">If you have any problems create a Issue on the <a href="https://github.com/0PandaDEV/Nextron/issues"
-        target="_blank" class="highlighted-text">Github
-        issue</a> tracker or join our <a href="https://discord.gg/Y7SbYphVw9" target="_blank"
-        class="highlighted-text">Discord
-        server.</a></p>
+    <div class="text">
+      <p class="quote">If you have any problems create a Issue on the <a
+          href="https://github.com/0PandaDEV/Nextron/issues" target="_blank" class="highlighted-text">Github
+          issue</a> tracker or join our <a href="https://discord.gg/Y7SbYphVw9" target="_blank"
+          class="highlighted-text">Discord
+          server.</a></p>
+    </div>
 
     <div class="bottom-nav">
 
