@@ -3,6 +3,15 @@
     <h2 class="pre-title">General</h2>
     <h1 class="title">Permissions</h1>
 
+    <div class="text">
+      <div class="quote">Permissions have always the same format for consintensy.</div>
+      <div class="space-18"></div>
+      <code>nextron.{commandName}.{action}...</code>
+      <div class="space-32"></div>
+      <div class="quote">All the permissions to the correspoding commands are on the <nuxt-link to="/wiki/commands"
+          class="highlighted-text">commands</nuxt-link> page.
+      </div>
+    </div>
 
     <div class="bottom-nav">
 
