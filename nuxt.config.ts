@@ -8,7 +8,7 @@ export default defineNuxtConfig({
     {
       src: '/stats/js/script.js',
       dataApi: '/stats/api/event',
-      dataDomain: '<your-domain>'
+      dataDomain: 'https://essentialsp.tk'
     }
   ]
     },
