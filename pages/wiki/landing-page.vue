@@ -13,7 +13,7 @@
     </nuxt-link>
 
     <nuxt-link to="/wiki/getting-help">
-      <div class="next-button bottom-button">
+      <div class="next-button" id="bottom-button">
         <span class="material-icons-outlined icon">chevron_right</span>
         <p class="direction">Next</p>
         <h2 class="page">Getting Help</h2>
@@ -65,6 +65,36 @@ useHead({
   padding-top: 30px;
 }
 
+#bottom-button {
+  background-color: transparent;
+  border-radius: 5px;
+  border-color: #2f3033;
+  width: 100%;
+  height: 75px;
+  padding: 16px;
+  border-style: solid;
+  border-width: 1px;
+  transition: all 0.2s;
+  float: right;
+  margin-top: 30px;
+}
+
+#bottom-button .icon {
+  float: right;
+  padding-top: 11px;
+  font-size: 23px;
+  color: #bec5ce;
+}
+
+#bottom-button:hover {
+  transform: translateY(-3px);
+}
+
+#bottom-button:hover .page,
+#bottom-button:hover .icon {
+  color: #b180ff !important;
+}
+
 .bottom-nav {
   display: block !important;
 }
@@ -74,6 +104,5 @@ useHead({
   margin-left: 0 !important;
   max-width: 890px;
   width: 100% !important;
-  margin-bottom: 20px;
 }
 </style>

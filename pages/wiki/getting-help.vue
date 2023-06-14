@@ -1,7 +1,34 @@
 <template>
   <NuxtLayout name="wiki">
     <h2 class="pre-title">Introduction</h2>
-    <h1 class="title">Getting help</h1>
+    <h1 class="title">Getting Help</h1>
+
+    <p class="quote">If you have any problems create a Issue on the <a href="https://github.com/0PandaDEV/Nextron/issues"
+        target="_blank" class="highlighted-text">Github
+        issue</a> tracker or join our <a href="https://discord.gg/Y7SbYphVw9" target="_blank"
+        class="highlighted-text">Discord
+        server.</a></p>
+
+    <div class="bottom-nav">
+
+      <nuxt-link to="../wiki/landing-page" class="btn_link">
+        <div class="previous-button bottom-button">
+          <span class="material-icons-outlined icon">chevron_right</span>
+          <div class="text-container">
+            <p class="direction">Previous</p>
+            <h2 class="page">Landing Page</h2>
+          </div>
+        </div>
+      </nuxt-link>
+      <nuxt-link to="../wiki/commands" class="btn_link">
+        <div class="next-button bottom-button">
+          <span class="material-icons-outlined icon">chevron_right</span>
+          <p class="direction">Next - General</p>
+          <h2 class="page">Commands</h2>
+        </div>
+      </nuxt-link>
+
+    </div>
   </NuxtLayout>
 </template>
 

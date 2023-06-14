@@ -2,6 +2,17 @@
   <NuxtLayout name="wiki">
     <h2 class="pre-title">General</h2>
     <h1 class="title">Configuration</h1>
+
+
+    <nuxt-link to="../wiki/permissions" class="btn_link">
+      <div class="previous-button bottom-button">
+        <span class="material-icons-outlined icon">chevron_right</span>
+        <div class="text-container">
+          <p class="direction">Previous</p>
+          <h2 class="page">Permissions</h2>
+        </div>
+      </div>
+    </nuxt-link>
   </NuxtLayout>
 </template>
 

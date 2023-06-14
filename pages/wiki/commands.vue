@@ -2,6 +2,29 @@
   <NuxtLayout name="wiki">
     <h2 class="pre-title">General</h2>
     <h1 class="title">Commands</h1>
+
+
+
+    <div class="bottom-nav">
+
+      <nuxt-link to="../wiki/getting-help" class="btn_link">
+        <div class="previous-button bottom-button">
+          <span class="material-icons-outlined icon">chevron_right</span>
+          <div class="text-container">
+            <p class="direction">Previous - Introduction</p>
+            <h2 class="page">Getting Help</h2>
+          </div>
+        </div>
+      </nuxt-link>
+      <nuxt-link to="../wiki/permissions" class="btn_link">
+        <div class="next-button bottom-button">
+          <span class="material-icons-outlined icon">chevron_right</span>
+          <p class="direction">Next</p>
+          <h2 class="page">Permissions</h2>
+        </div>
+      </nuxt-link>
+
+    </div>
   </NuxtLayout>
 </template>
 
