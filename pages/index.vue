@@ -116,7 +116,9 @@
             <nuxt-img src="/4.png" loading="lazy" alt="4" class="section-image" />
             <div class="section-description">
               <div class="section-title">Fully documented.</div>
-              <div class="section-text">Nextron has an extensive wiki where every section is explained to you, from
+              <div class="section-text">Nextron has an extensive <nuxt-link class="highlighted-text"
+                  to="/wiki/landing-page">wiki</nuxt-link> where
+                every section is explained to you, from
                 the commands to the permissions and
                 configurations.</div>
               <ul class="subgrid-list">
