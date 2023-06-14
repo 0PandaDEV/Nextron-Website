@@ -9,7 +9,7 @@ body {
 
 .wiki-hero {
   max-width: 1200px;
-  padding: 46px 2rem;
+  padding: 40px 2rem;
   margin-inline: auto;
   flex-direction: row;
   display: flex;
@@ -77,7 +77,6 @@ a {
   border-style: solid;
   border-width: 1px;
   transition: all 0.2s;
-  margin-top: 30px;
   float: right;
 }
 
@@ -95,13 +94,6 @@ a {
 .page {
   font-size: 16px;
   color: #bec5ce;
-
-}
-
-button,
-a {
-  font-family: inherit;
-  text-decoration: none;
 }
 
 .bottom-button .icon {
@@ -118,6 +110,18 @@ a {
 .bottom-button:hover .page,
 .bottom-button:hover .icon {
   color: #b180ff !important;
+}
+
+.scroll-to .title {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.scroll-to .pre-title {
+  color: #b180ff;
+  font-size: 16px;
 }
 
 .previous-button .direction,
@@ -159,14 +163,9 @@ a {
   .bottom-nav>* {
     display: block;
   }
-}
 
-@media (min-width: 600px) {
-
-  /*for Desktop*/
-  .material-icons-outlined {
-    font-size: 20px;
-    line-height: 20px;
+  .next-button {
+    margin-top: 30px;
   }
 }
 
@@ -199,11 +198,7 @@ a {
     font-size: 14px;
   }
 
-  .before-button {
-    font-size: 18px;
-  }
-
-  .content {
-    padding-top: 130px;
+  .space {
+    height: 28px;
   }
 }
