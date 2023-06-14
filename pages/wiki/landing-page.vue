@@ -2,7 +2,7 @@
   <NuxtLayout name="wiki">
     <h2 class="pre-title">Introduction</h2>
     <h1 class="title">Landing Page</h1>
-    <p class="quote">Welcome to the landing page of the wiki from Nextron!</p>
+    <p id="quote">Welcome to the landing page of the wiki from Nextron!</p>
 
     <h2 class="before-button">Some things you might wanna know</h2>
     <nuxt-link to="/wiki/getting-help">
@@ -55,7 +55,7 @@ useHead({
 </script>
 
 <style>
-.quote {
+#quote {
   margin: 30px;
   margin-inline: 0;
 }
