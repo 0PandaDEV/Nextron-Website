@@ -231,6 +231,10 @@ code {
   margin-bottom: 5px;
 }
 
+.space-10 {
+  height: 10px;
+}
+
 .space-12 {
   height: 12px;
 }
