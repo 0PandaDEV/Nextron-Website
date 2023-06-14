@@ -2,12 +2,11 @@
   <navbar />
   <main class="home">
     <header class="hero">
-
       <div class="d-flex justify-content-center align-items-center flex-column text-center">
         <p class="important">IMPORTANT: The project is currently being renamed!</p>
         <div class="interior">
           <h1 class="display-1">
-            Your Essential superpower
+            Your Nextlevel superpower
           </h1>
           <div class="description">
             <h2 class="d-flex justify-content-center align-items-center lead mb-5">
@@ -32,7 +31,7 @@
           </div>
         </div>
         <div class="container-hero">
-          <img format="webp" width="1200" src="/hero.png" class="fluid-img" alt="hero" />
+          <nuxt-img width="1200" src="/hero.png" class="fluid-img" alt="hero" />
         </div>
       </div>
     </header>
@@ -66,10 +65,10 @@
                 </li>
               </ul>
             </div>
-            <img src="/1.png" loading="lazy" alt="1" class="section-image">
+            <nuxt-img src="/1.png" loading="lazy" alt="1" class="section-image" />
           </div>
           <div class="section section-2 reveal-content">
-            <img src="/2.png" loading="lazy" alt="2" class="section-image">
+            <nuxt-img src="/2.png" loading="lazy" alt="2" class="section-image" />
             <div class="section-description">
               <div class="section-title">Tons of commands.</div>
               <div class="section-text">Nextron has tons of useful utility commands that makes your life as a player
@@ -111,10 +110,10 @@
                 </li>
               </ul>
             </div>
-            <img src="/3.png" loading="lazy" alt="3" class="section-image">
+            <nuxt-img src="/3.png" loading="lazy" alt="3" class="section-image" />
           </div>
           <div class="section section-4 reveal-content">
-            <img src="/4.png" loading="lazy" alt="4" class="section-image">
+            <nuxt-img src="/4.png" loading="lazy" alt="4" class="section-image" />
             <div class="section-description">
               <div class="section-title">Fully documented.</div>
               <div class="section-text">Nextron has an extensive wiki where every section is explained to you, from
@@ -180,7 +179,7 @@ useSeoMeta({
 })
 
 useHead({
-  title: 'Nextron',
+  title: 'Nextron - Your Nextlevel superpower',
   meta: [{
     name: 'description', content: "Nextron is a powerful plugin for every Minecraft server. It adds useful features that enhance the game."
   }],

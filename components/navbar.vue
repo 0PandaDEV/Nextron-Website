@@ -2,9 +2,9 @@
   <div class="navbar">
     <div class="header">
       <div class="icon">
-        <nuxt-link id="home" to="/">
+        <NuxtLink id="home" to="/">
           <nuxt-img src="/logo-big.png" alt="Nextron Logo" height="30px" class="header-img" />
-        </nuxt-link>
+        </NuxtLink>
       </div>
       <div class="spacer"></div>
       <div class="issueslink hidenav">
