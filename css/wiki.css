@@ -198,7 +198,7 @@ a {
     font-size: 38px;
   }
 
-  quote {
+  .quote {
     font-size: 14px;
   }
 
@@ -210,6 +210,18 @@ a {
 code {
   background-color: #21262d;
   border-radius: 5px;
+  padding: 3px;
+  padding-inline: 8px;
+  font-family: monospace;
+  width: min-content;
+  white-space: nowrap;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.colored-code {
+  background-color: #21262d;
+  border-radius: 5px 0 0 5px;
   padding: 3px;
   padding-inline: 8px;
   font-family: monospace;
@@ -263,16 +275,27 @@ code {
   margin-bottom: 30px;
 }
 
-line {
+.line {
   height: 1px;
   width: 100%;
   background-color: #2f3033;
 }
 
-green {
-  color: #8CB372;
+.green {
+  color: #8CB372 !important;
 }
 
-purple {
-  color: #b180ff;
+.code-green {
+  color: #8CB372 !important;
+  background-color: #21262d;
+  border-radius: 0 5px 5px 0;
+  font-family: monospace;
+  width: min-content;
+  white-space: nowrap;
+  font-size: 15px;
+  padding-left: 0;
+}
+
+.purple {
+  color: #b180ff !important;
 }
