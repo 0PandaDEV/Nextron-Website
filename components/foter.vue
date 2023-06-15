@@ -1,5 +1,5 @@
 <template>
-  <div class="bottom">
+  <div class="bottom" id="bottom">
     <section class="cta text-center">
       <div class="container-footer">
         <div class="interior-footer d-flex justify-content-between">
@@ -13,7 +13,7 @@
             <div>
               <a title="Github issues" href="https://github.com/0pandadev/nextron/" class="btn btn-outline-dark"
                 target="_blank">
-                Source
+                Code
                 <span class="material-icons-outlined">chevron_right</span></a>
             </div>
           </div>
@@ -39,7 +39,7 @@
                 </a>
               </div>
               <div>
-                <a title="Getting started" class="item" href="./getting-started.html">
+                <a title="Getting started" class="item" href="/getting-started">
                   Getting Started
                 </a>
               </div>
@@ -80,7 +80,19 @@
       </div>
     </div>
   </div>
+  <div class="footer-bg" id="footer-bg"></div>
 </template>
+
+<script lang="ts">
+export default {
+  mounted() {
+    var bg = document.getElementById("footer-bg")
+    var bottom = document.getElementById("bottom")
+    console.log("test")
+    bg.style.height = '453px'
+  }
+}
+</script>
 
 <style>
 @media (min-width: 600px) {
@@ -232,5 +244,15 @@ section {
 .h1 {
   white-space: nowrap;
   color: #f0f6fc;
+}
+
+.footer-bg {
+  width: 100%;
+  height: 100%;
+  background-color: #171B21;
+  position: relative;
+  bottom: 0;
+  z-index: -1;
+  left: 0;
 }
 </style>

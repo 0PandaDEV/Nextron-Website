@@ -264,7 +264,6 @@ html {
 }
 
 body {
-  background: #161b22;
   box-sizing: border-box;
   color: white;
   line-height: 1.5;
@@ -272,62 +271,13 @@ body {
   font-family: Inter !important;
 }
 
-.home {
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50%;
-  background-color: #161b22;
-  width: 100% !important;
-  height: 150% !important;
-}
-
-.navbar {
-  position: relative;
-  width: 100%;
-  max-width: 1200px;
-  margin: auto;
-  box-sizing: border-box;
-}
-
-.header {
-  padding-inline: 1rem;
-  max-width: 1136px;
-  background-color: #161b22;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
-  border-radius: 15px;
-  box-shadow: 0 4px 40px #0c1016a6;
-  display: grid;
-  place-items: center;
-  white-space: nowrap;
-  grid-template-columns: 40px auto 70px 110px 53px 50px 100px;
-}
-
-.devider {
-  width: 1px;
-  height: 60%;
-  background-color: #21262d;
-}
-
-.btn {
-  white-space: nowarp;
-}
-
-.header-img {
-  top: 50%;
-  position: absolute;
-  transform: translate(0, -50%);
-}
-
-.issues,
-.getting-started {
-  color: white;
-}
-
 /*--------------------------------------------------*/
 .hero .display-1 {
   max-width: 800px;
+}
+
+.hero {
+  background-color: #161b22;
 }
 
 .display-1,
@@ -620,21 +570,6 @@ section {
   font-weight: 500;
 }
 
-.bottom {
-  background-color: #161b22;
-  width: 100%;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%);
-  max-width: 1150px;
-}
-
-@media (max-width: 1240px) {
-  .bottom {
-    padding: 0 2rem;
-  }
-}
-
 @media (max-width: 730px) {
   .interior-footer {
     flex-direction: column;
@@ -672,29 +607,6 @@ section {
     font-size: 11px;
     line-height: 17px;
   }
-}
-
-.interior-footer {
-  padding: 80px 0;
-  align-items: center;
-}
-
-.container-footer {
-  max-width: 1200px;
-  margin: auto;
-}
-
-.footer {
-  border-top: 1px solid #21262d;
-}
-
-.container-footer-text {
-  max-width: 1200px;
-  width: 100%;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .item {
@@ -779,4 +691,9 @@ section {
 
 .interior {
   padding-top: 30px;
+}
+
+
+#nav-bg {
+  background-color: #161b22;
 }

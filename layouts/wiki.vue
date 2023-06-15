@@ -9,10 +9,6 @@
   </div>
 </template>
 
-<script setup>
-
-</script>
-
 <style>
 @import url("~/css/wiki.css");
 
@@ -45,5 +41,6 @@
   z-index: 100;
   left: 50%;
   transform: translateX(-50%);
+  background-color: #0d1117;
 }
 </style>

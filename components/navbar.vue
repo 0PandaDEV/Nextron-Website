@@ -3,7 +3,7 @@
     <div class="header">
       <div class="icon">
         <NuxtLink id="home" to="/">
-          <nuxt-img src="/logo-big.png" alt="Nextron Logo" height="30px" class="header-img" />
+          <nuxt-img src="/logo-big.png" alt="Nextron Logo" class="header-img" />
         </NuxtLink>
       </div>
       <div class="spacer"></div>
@@ -127,9 +127,9 @@
 .navbar {
   position: relative;
   width: 100%;
-  max-width: 1200px;
   margin: auto;
   box-sizing: border-box;
+  background-color: #0D1116;
 }
 
 .header {
@@ -157,6 +157,7 @@
   top: 50%;
   position: absolute;
   transform: translate(0, -50%);
+  height: 30px;
 }
 
 .issues,
