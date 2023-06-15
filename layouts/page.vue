@@ -9,6 +9,10 @@
 </template>
 
 <style>
+body {
+  overflow-y: scroll;
+}
+
 .bg-page {
   background: #0d1117 !important;
   width: 100%;
