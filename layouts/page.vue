@@ -1,38 +1,26 @@
 <template>
   <navbar />
   <div class="bg-page"></div>
-  <div class="center">
-    <div class="page-content">
-      <slot />
-    </div>
+  <div id="interior">
+    <slot />
   </div>
+  <!-- <foter /> -->
 </template>
 
 <style>
 body {
   overflow-y: scroll;
+  box-sizing: border-box;
+  background: #0d1117;
 }
 
-.bg-page {
-  background: #0d1117 !important;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-}
-
-.center {
+#interior {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.page-content {
-  display: flex;
+  flex-direction: column;
   max-width: 1200px;
-  padding: 32px;
+  position: relative;
+  width: 100%;
+  margin: auto;
+  padding: 50px 2rem 0;
 }
 </style>
