@@ -4,18 +4,9 @@ export default defineNuxtConfig({
     "@nuxtjs/robots",
     "nuxt-simple-sitemap",
     "@nuxt/image",
-    "@nuxtjs/plausible",
+    "nuxt-vercel-analytics",
   ],
-  devtools: true,
-  app: {
-    head: {
-      script: [
-        {
-          src: "/stats/js/script.js",
-          dataApi: "/stats/api/event",
-          dataDomain: "https://essentialsp.tk",
-        },
-      ],
-    },
+  devtools: {
+    enabled: true,
   },
 });
