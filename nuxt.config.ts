@@ -1,6 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ["@nuxtjs/robots", "nuxt-simple-sitemap", "@nuxt/image"],
+  modules: [
+    "@nuxtjs/robots",
+    "nuxt-simple-sitemap",
+    "@nuxt/image",
+    "@nuxtjs/plausible",
+  ],
   devtools: true,
   app: {
     head: {

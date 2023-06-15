@@ -16,6 +16,7 @@
     "nuxt-simple-sitemap": "^2.6.2"
   },
   "dependencies": {
+    "@nuxtjs/plausible": "^0.2.1",
     "@nuxtjs/robots": "^3.0.0"
   }
 }
