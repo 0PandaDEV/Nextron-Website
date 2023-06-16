@@ -2,7 +2,7 @@
   <navbar id="nav-bg" />
   <header class="hero">
     <div class="d-flex justify-content-center align-items-center flex-column text-center">
-      <p class="important">IMPORTANT: The project is currently being renamed!</p>
+      <p class="important">The project is currently being renamed!</p>
       <div class="interior">
         <h1 class="display-1">
           Your Nextlevel superpower
