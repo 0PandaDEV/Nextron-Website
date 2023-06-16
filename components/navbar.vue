@@ -3,7 +3,7 @@
     <div class="header">
       <div class="icon">
         <NuxtLink id="home" to="/">
-          <nuxt-img src="/logo-big.png" alt="Nextron Logo" class="header-img" />
+          <nuxt-img format="webp" src="/logo-big.png" alt="Nextron Logo" class="header-img" />
         </NuxtLink>
       </div>
       <div class="spacer"></div>

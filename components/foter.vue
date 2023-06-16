@@ -25,7 +25,7 @@
         <div class="d-block d-md-flex justify-content-between">
           <div class="logo-wrapper">
             <a title="Home" href="/">
-              <img loading="lazy" alt="Nextron Logo" src="/logo-big.png" lazy="loaded" height="28" />
+              <nuxt-img format="webp" loading="lazy" alt="Nextron Logo" src="/logo-big.png" lazy="loaded" height="28" />
             </a>
           </div>
           <div class="menu text-small">
