@@ -9,9 +9,9 @@
         </h1>
         <div class="description">
           <h2 class="d-flex justify-content-center align-items-center lead mb-5">
-            Nextron is a powerful Minecraft plugin which is meant to replace any other plugins you use at the
-            moment. It has beautiful GUI's that simplifies the process to many users because you don't have to use
-            complicated commands.
+            Nextron is a powerful Minecraft plugin which is meant to replace any other plugins you use at the moment. It
+            has beautiful GUI's that simplify the process for many users because they don't have to use complicated
+            commands.
           </h2>
           <div class="d-flex justify-content-center">
             <div class="mr-3">
@@ -185,5 +185,4 @@ useHead({
 </script>
 
 <style>
-@import url("~/css/index.css");
-</style>
+@import url("~/css/index.css");</style>

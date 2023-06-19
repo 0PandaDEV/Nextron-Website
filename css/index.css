@@ -7,6 +7,7 @@
 @font-face {
   font-family: Material Icons;
   src: url("../fonts/Material.woff2") format("woff2");
+  font-display: swap;
 }
 
 @font-face {
@@ -230,6 +231,11 @@
   background: #b180ff;
 }
 
+html {
+  width: 100%;
+  height: 100%;
+}
+
 body {
   box-sizing: border-box;
   color: white;
@@ -396,6 +402,10 @@ body {
 
   .section-list-item {
     font-size: 11px;
+  }
+
+  .reveal-content.active {
+    gap: 0 !important;
   }
 }
 
@@ -611,6 +621,7 @@ section {
 .reveal-content.active {
   transform: translateY(0px);
   opacity: 1;
+  gap: 50px;
 }
 
 .highlighted-text {
