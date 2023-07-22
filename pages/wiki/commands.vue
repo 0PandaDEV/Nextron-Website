@@ -111,7 +111,7 @@
       <div class="s14"></div>
     </div>
 
-    <div class="ranks">
+    <!-- <div class="ranks">
       <h2 class="purple">Rank</h2>
       <div class="s4"></div>
       <code class="green">{{ home }}</code>
@@ -133,7 +133,7 @@
       <code>nextron.delhome</code>
       <div class="s4"></div>
       <code>nextron.renamehome</code>
-    </div>
+    </div> -->
 
     <div class="s24"></div>
     <div class="bottom-nav">
