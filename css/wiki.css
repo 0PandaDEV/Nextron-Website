@@ -231,43 +231,55 @@ code {
   margin-bottom: 5px;
 }
 
-.space-10 {
+.s4 {
+  height: 4px;
+}
+
+.s8 {
+  height: 8px;
+}
+
+.s10 {
   height: 10px;
 }
 
-.space-12 {
+.s12 {
   height: 12px;
 }
 
-.space-16 {
+.s14 {
+  height: 14px;
+}
+
+.s16 {
   height: 16px;
 }
 
-.space-18 {
+.s18 {
   height: 18px;
 }
 
-.space-20 {
+.s20 {
   height: 20px;
 }
 
-.space-22 {
+.s22 {
   height: 22px;
 }
 
-.space-24 {
+.s24 {
   height: 24px;
 }
 
-.space-28 {
+.s28 {
   height: 28px;
 }
 
-.space-32 {
+.s32 {
   height: 32px;
 }
 
-.space-38 {
+.s38 {
   height: 38px;
 }
 
