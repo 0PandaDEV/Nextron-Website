@@ -6,36 +6,36 @@
     <div class="text">
       <div class="quote">The configuration is the way we configure the plugin. In here you can find multiple keys you can
         edit. One of them is the language.</div>
-      <div class="space-10"></div>
+      <div class="s10"></div>
       <code># currently available en, de</code>
       <br>
       <code class="colored-code">lanugage:</code><code class="code-green">{language}</code>
-      <div class="space-18"></div>
+      <div class="s18"></div>
       <div class="quote">This can be either set to <code class="green">en</code> or <code class="green">de</code> at the
         moment. Or
         change it ingame
         with the command.</div>
-      <div class="space-10"></div>
+      <div class="s10"></div>
       <code class="colored-code">/language</code><code class="code-green">{language}</code>
 
-      <div class="space-18"></div>
+      <div class="s18"></div>
       <div class="line"></div>
-      <div class="space-18"></div>
+      <div class="s18"></div>
 
       <div class="quote">Also there is the <code class="green">join_message</code> and
         <code class="green">leave_message</code>
       </div>
-      <div class="space-10"></div>
+      <div class="s10"></div>
       <code class="colored-code">join_message:</code><code class="code-green">"&2[&a+&2] &7%p"</code>
       <br>
       <code class="colored-code">leave_message:</code><code class="code-green">"&4[&c-&4] &7%p"</code>
-      <div class="space-18"></div>
+      <div class="s18"></div>
       <div class="quote">In this case the <code>%p</code> represents the spot where the player name is placed<br>if you
         want to use color codes go in your terminal and type <code>color ?</code> to get a list.</div>
 
-      <div class="space-10"></div>
-      <code class="purple">Ussage: &{colorCode}</code>
-      <div class="space-24"></div>
+      <div class="s10"></div>
+      <code>Color Code Ussage: &{colorCode}</code>
+      <div class="s24"></div>
       <div class="quote">All the other keys should not be touched as they are managed by the plugin itself.</div>
     </div>
 

@@ -5,9 +5,9 @@
 
     <div class="text">
       <div class="quote">Permissions have always the same format for consisentsy.</div>
-      <div class="space-10"></div>
+      <div class="10"></div>
       <code>nextron.{commandName}.{action}...</code>
-      <div class="space-24"></div>
+      <div class="24"></div>
       <div class="quote">All the permissions to the correspoding commands are on the <nuxt-link to="/wiki/commands"
           class="highlighted-text">commands</nuxt-link> page.
       </div>
