@@ -15,12 +15,6 @@ export default defineNuxtConfig({
           "data-website-id": "72ea9501-3b4c-4202-a406-857bf85833b2",
         },
       ],
-      script: [
-        {
-          src: "https://66analytics.com/demo/pixel/6HgQjhFv15iOhnsK",
-          defer: true,
-        },
-      ],
     },
   },
 });
