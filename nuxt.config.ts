@@ -17,4 +17,7 @@ export default defineNuxtConfig({
       ],
     },
   },
+  site: {
+    url: "https://essentialsp.tk",
+  },
 });
