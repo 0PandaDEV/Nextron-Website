@@ -176,6 +176,10 @@ useHead({
   },
   link: [
     {
+      rel: 'canonical',
+      href: 'https://essentialsp.tk',
+    },
+    {
       rel: 'icon',
       type: 'image/png',
       href: '/favicon.ico'

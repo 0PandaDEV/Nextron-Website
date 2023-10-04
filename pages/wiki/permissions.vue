@@ -60,6 +60,10 @@ useHead({
   },
   link: [
     {
+      rel: 'canonical',
+      href: 'https://essentialsp.tk/wiki/permissions',
+    },
+    {
       rel: 'icon',
       type: 'image/png',
       href: '/favicon.ico'

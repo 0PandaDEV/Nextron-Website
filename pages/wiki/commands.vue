@@ -201,6 +201,10 @@ useHead({
   },
   link: [
     {
+      rel: 'canonical',
+      href: 'https://essentialsp.tk/wiki/commands',
+    },
+    {
       rel: 'icon',
       type: 'image/png',
       href: '/favicon.ico'

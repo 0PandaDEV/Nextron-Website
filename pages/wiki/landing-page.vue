@@ -46,6 +46,10 @@ useHead({
   },
   link: [
     {
+      rel: 'canonical',
+      href: 'https://essentialsp.tk/wiki/landing-page',
+    },
+    {
       rel: 'icon',
       type: 'image/png',
       href: '/favicon.ico'

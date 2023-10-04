@@ -75,6 +75,10 @@ useHead({
   },
   link: [
     {
+      rel: 'canonical',
+      href: 'https://essentialsp.tk/wiki/configuration',
+    },
+    {
       rel: 'icon',
       type: 'image/png',
       href: '/favicon.ico'

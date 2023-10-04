@@ -7,6 +7,42 @@
   </NuxtLayout>
 </template>
 
+<script setup lang="ts">
+useSeoMeta({
+  ogTitle: 'Nextron - Getting started',
+  ogDescription: "Get to know exactly how to setup Nextron",
+  ogImage: '/logo.png',
+  ogUrl: 'https://nextron.tk',
+  ogType: 'website',
+  ogSiteName: 'Nextron - Getting started',
+  twitterTitle: 'Nextron - Getting started',
+  twitterDescription: "Get to know exactly how to setup Nextron",
+  twitterImage: '/logo.png',
+  twitterCard: 'summary'
+})
+
+useHead({
+  title: 'Nextron - Getting started',
+  meta: [{
+    name: 'description', content: "Get to know exactly how to setup Nextron"
+  }],
+  htmlAttrs: {
+    lang: 'en'
+  },
+  link: [
+    {
+      rel: 'canonical',
+      href: 'https://essentialsp.tk/getting-started',
+    },
+    {
+      rel: 'icon',
+      type: 'image/png',
+      href: '/favicon.ico'
+    }
+  ]
+})
+</script>
+
 <style>
 #center-it {
   align-items: center;
