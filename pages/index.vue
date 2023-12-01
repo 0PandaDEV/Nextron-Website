@@ -30,7 +30,7 @@
         </div>
       </div>
       <div class="container-hero">
-        <nuxt-img format="webp" width="1200" src="/hero.png" class="fluid-img" alt="hero" />
+        <img format="webp" width="1200" src="/hero.webp" class="fluid-img" alt="hero" />
       </div>
     </div>
   </header>
@@ -61,10 +61,10 @@
               </li>
             </ul>
           </div>
-          <nuxt-img format="webp" src="/1.png" loading="lazy" alt="1" class="section-image" />
+          <img format="webp" src="/1.webp" loading="lazy" alt="1" class="section-image" />
         </div>
         <div class="section section-2 reveal-content">
-          <nuxt-img format="webp" src="/2.png" loading="lazy" alt="2" class="section-image" />
+          <img format="webp" src="/2.webp" loading="lazy" alt="2" class="section-image" />
           <div class="section-description">
             <div class="section-title">Tons of commands.</div>
             <div class="section-text">Nextron has tons of useful utility commands that makes your life as a player
@@ -100,10 +100,10 @@
               </li>
             </ul>
           </div>
-          <nuxt-img format="webp" src="/3.png" loading="lazy" alt="3" class="section-image" />
+          <img format="webp" src="/3.webp" loading="lazy" alt="3" class="section-image" />
         </div>
         <div class="section section-4 reveal-content">
-          <nuxt-img format="webp" src="/4.png" loading="lazy" alt="4" class="section-image" />
+          <img format="webp" src="/4.webp" loading="lazy" alt="4" class="section-image" />
           <div class="section-description">
             <div class="section-title">Fully documented.</div>
             <div class="section-text">Nextron has an extensive <nuxt-link class="highlighted-text"
@@ -156,13 +156,13 @@ export default {
 useSeoMeta({
   ogTitle: 'Nextron',
   ogDescription: "Nextron is a powerful plugin for every Minecraft server. It adds useful features that enhance the game.",
-  ogImage: '/logo.png',
+  ogImage: '/logo.webp',
   ogUrl: 'https://nextron.tk',
   ogType: 'website',
   ogSiteName: 'Nextron',
   twitterTitle: 'Nextron',
   twitterDescription: "Nextron is a powerful plugin for every Minecraft server. It adds useful features that enhance the game.",
-  twitterImage: '/logo.png',
+  twitterImage: '/logo.webp',
   twitterCard: 'summary'
 })
 

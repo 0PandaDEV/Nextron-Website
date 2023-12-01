@@ -1,15 +1,13 @@
 <template>
   <div>
-    <NuxtLayout>
-      <NuxtPage />
-    </NuxtLayout>
+    <NuxtPage />
   </div>
 </template>
 
 <style>
 @font-face {
   font-family: Inter;
-  src: url("../fonts/inder.woff2") format("woff2");
+  src: url("~/fonts/inder.woff2") format("woff2");
   font-display: swap;
 }
 </style>

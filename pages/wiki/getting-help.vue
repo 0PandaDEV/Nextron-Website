@@ -38,13 +38,13 @@
 useSeoMeta({
   ogTitle: 'Nextron - Getting help',
   ogDescription: "Getting help, all the links you have to know for support.",
-  ogImage: '/logo.png',
+  ogImage: '/logo.webp',
   ogUrl: 'https://essentialsp.tk/wiki/getting-help',
   ogType: 'website',
   ogSiteName: 'Nextron - Getting help',
   twitterTitle: 'Nextron - Getting help',
   twitterDescription: "Getting help, all the links you have to know for support.",
-  twitterImage: '/logo.png',
+  twitterImage: '/logo.webp',
   twitterCard: 'summary'
 })
 
