@@ -10,7 +10,7 @@ export default defineNuxtConfig({
         {
           src: "https://plausible.pandadev.net/js/script.js",
           defer: true,
-          "data-domain": "essentialsp.tk",
+          "data-domain": "nextron.pandadev.net",
         },
       ],
     },
