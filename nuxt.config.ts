@@ -16,6 +16,6 @@ export default defineNuxtConfig({
     },
   },
   site: {
-    url: "https://essentialsp.tk",
+    url: "https://nextron.pandadev.net",
   },
 });

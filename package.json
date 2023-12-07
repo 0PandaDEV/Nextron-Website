@@ -11,9 +11,9 @@
   "devDependencies": {
     "@nuxt/devtools": "1.0.4",
     "@nuxt/image": "1.1.0",
-    "@types/node": "^20.10.1",
+    "@types/node": "^20.10.4",
     "nuxt": "^3.8.2",
-    "nuxt-simple-sitemap": "^4.1.7"
+    "nuxt-simple-sitemap": "^4.1.9"
   },
   "dependencies": {
     "@nuxtjs/robots": "^3.0.0"
