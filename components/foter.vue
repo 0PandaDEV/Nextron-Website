@@ -6,7 +6,7 @@
           <div class="h1">Ready to get started?</div>
           <div class="d-flex">
             <div class="mr-3">
-              <a title="Modrinth download" href="https://modrinth.com/plugin/nextron" target="_blank" class="btn">
+              <a title="Modrinth download" href="https://modrinth.com/plugin/nextron" target="_blank" class="btn plausible-event-name=Download+footer">
                 Download
                 <span class="material-icons-outlined">chevron_right</span></a>
             </div>
