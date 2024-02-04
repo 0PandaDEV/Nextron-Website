@@ -15,13 +15,13 @@
           <div class="d-flex justify-content-center">
             <div class="mr-3">
               <a title="Modrinth download" href="https://modrinth.com/plugin/nextron" rel="noopener" target="_blank"
-                class="btn">
+                class="btn plausible-event-name=Download">
                 Download
                 <span class="material-icons-outlined">chevron_right</span></a>
             </div>
             <div>
               <a title="Github source" href="https://github.com/0pandadev/nextron/" rel="noopener" target="_blank"
-                class="btn btn-outline-dark">
+                class="btn btn-outline-dark plausible-event-name=Github">
                 Code
                 <span class="material-icons-outlined">chevron_right</span></a>
             </div>
@@ -85,7 +85,7 @@
           <div class="section-description">
             <div class="section-title">Multiple languages.</div>
             <div class="section-text">Nextron comes with two languages at the moment but theres planned to be more
-              in the future. If you want to help me translate the project join my <a class="highlighted-text"
+              in the future. If you want to help me translate the project join my <a class="highlighted-text plausible-event-name=Discord"
                 href="https://discord.gg/Y7SbYphVw9" target="_blank">discord.</a></div>
             <ul class="subgrid-list">
               <li class="section-list-item"><span data-v-d7356cae="" class="material-icons-outlined icon-done">done</span>
