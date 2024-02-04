@@ -8,7 +8,7 @@
       </div>
       <div class="spacer"></div>
       <div class="issueslink hidenav">
-        <NuxtLink title="Github issues" to="https://github.com/0pandadev/nextron/issues" target="_blank">
+        <a class="plausible-event-name=Issues" title="Github issues" to="https://github.com/0pandadev/nextron/issues" target="_blank">
           <p class="issues">Issues</p>
         </NuxtLink>
       </div>
