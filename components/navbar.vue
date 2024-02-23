@@ -10,7 +10,7 @@
       <div class="issueslink hidenav">
         <a class="plausible-event-name=Issues" title="Github issues" to="https://github.com/0pandadev/nextron/issues" target="_blank">
           <p class="issues">Issues</p>
-        </NuxtLink>
+        </a>
       </div>
       <div class="getting_started hidenav">
         <NuxtLink title="getting started" to="/getting-started">
