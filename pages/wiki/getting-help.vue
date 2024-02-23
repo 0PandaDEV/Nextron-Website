@@ -39,7 +39,7 @@ useSeoMeta({
   ogTitle: 'Nextron - Getting help',
   ogDescription: "Getting help, all the links you have to know for support.",
   ogImage: '/logo.webp',
-  ogUrl: 'https://essentialsp.tk/wiki/getting-help',
+  ogUrl: 'https://nextron.pandadev.net/wiki/getting-help',
   ogType: 'website',
   ogSiteName: 'Nextron - Getting help',
   twitterTitle: 'Nextron - Getting help',
@@ -59,7 +59,7 @@ useHead({
   link: [
     {
       rel: 'canonical',
-      href: 'https://essentialsp.tk/wiki/getting-help',
+      href: 'https://nextron.pandadev.net/wiki/getting-help',
     },
     {
       rel: 'icon',

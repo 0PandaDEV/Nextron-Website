@@ -56,7 +56,7 @@ useSeoMeta({
   ogTitle: 'Nextron - Configuration',
   ogDescription: "Configuration, see any config values that you can modify.",
   ogImage: '/logo.webp',
-  ogUrl: 'https://essentialsp.tk/wiki/configuration',
+  ogUrl: 'https://nextron.pandadev.net/wiki/configuration',
   ogType: 'website',
   ogSiteName: 'Nextron - Configuration',
   twitterTitle: 'Nextron - Configuration',
@@ -76,7 +76,7 @@ useHead({
   link: [
     {
       rel: 'canonical',
-      href: 'https://essentialsp.tk/wiki/configuration',
+      href: 'https://nextron.pandadev.net/wiki/configuration',
     },
     {
       rel: 'icon',

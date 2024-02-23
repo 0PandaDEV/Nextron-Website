@@ -182,7 +182,7 @@ useSeoMeta({
   ogTitle: 'Nextron - Commands',
   ogDescription: "Commands, see all the commands in the plugin.",
   ogImage: '/logo.webp',
-  ogUrl: 'https://essentialsp.tk/wiki/commands',
+  ogUrl: 'https://nextron.pandadev.net/wiki/commands',
   ogType: 'website',
   ogSiteName: 'Nextron - Commands',
   twitterTitle: 'Nextron - Commands',
@@ -202,7 +202,7 @@ useHead({
   link: [
     {
       rel: 'canonical',
-      href: 'https://essentialsp.tk/wiki/commands',
+      href: 'https://nextron.pandadev.net/wiki/commands',
     },
     {
       rel: 'icon',

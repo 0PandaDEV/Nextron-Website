@@ -32,7 +32,7 @@ useHead({
   link: [
     {
       rel: 'canonical',
-      href: 'https://essentialsp.tk/getting-started',
+      href: 'https://nextron.pandadev.net/getting-started',
     },
     {
       rel: 'icon',

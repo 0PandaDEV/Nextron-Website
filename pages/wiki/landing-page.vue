@@ -27,7 +27,7 @@ useSeoMeta({
   ogTitle: 'Nextron - Landing page',
   ogDescription: "Landing page, all the essential things you need to know.",
   ogImage: '/logo.webp',
-  ogUrl: 'https://essentialsp.tk/wiki/landing-page',
+  ogUrl: 'https://nextron.pandadev.net/wiki/landing-page',
   ogType: 'website',
   ogSiteName: 'Nextron - Landing page',
   twitterTitle: 'Nextron - Landing page',
@@ -47,7 +47,7 @@ useHead({
   link: [
     {
       rel: 'canonical',
-      href: 'https://essentialsp.tk/wiki/landing-page',
+      href: 'https://nextron.pandadev.net/wiki/landing-page',
     },
     {
       rel: 'icon',

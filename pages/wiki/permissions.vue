@@ -41,7 +41,7 @@ useSeoMeta({
   ogTitle: 'Nextron - Permissions',
   ogDescription: "Permissions, see all the permissions of the plugin.",
   ogImage: '/logo.webp',
-  ogUrl: 'https://essentialsp.tk/wiki/permissions',
+  ogUrl: 'https://nextron.pandadev.net/wiki/permissions',
   ogType: 'website',
   ogSiteName: 'Nextron - Permissions',
   twitterTitle: 'Nextron - Permissions',
@@ -61,7 +61,7 @@ useHead({
   link: [
     {
       rel: 'canonical',
-      href: 'https://essentialsp.tk/wiki/permissions',
+      href: 'https://nextron.pandadev.net/wiki/permissions',
     },
     {
       rel: 'icon',

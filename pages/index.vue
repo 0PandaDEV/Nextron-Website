@@ -176,7 +176,7 @@ useHead({
   link: [
     {
       rel: 'canonical',
-      href: 'https://essentialsp.tk',
+      href: 'https://nextron.pandadev.net',
     },
     {
       rel: 'icon',
