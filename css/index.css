@@ -1,18 +1,18 @@
 @font-face {
   font-family: ClashDisplay;
-  src: url("../fonts/ClashDisplay.woff2") format("woff2");
+  src: url("~/fonts/ClashDisplay.woff2") format("woff2");
   font-display: swap;
 }
 
 @font-face {
   font-family: Material Icons;
-  src: url("../fonts/Material.woff2") format("woff2");
+  src: url("~/fonts/Material.woff2") format("woff2");
   font-display: swap;
 }
 
 @font-face {
   font-family: Inter;
-  src: url("../fonts/inder.woff2") format("woff2");
+  src: url("~/fonts/inder.woff2") format("woff2");
   font-display: swap;
 }
 
