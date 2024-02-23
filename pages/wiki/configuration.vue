@@ -55,13 +55,13 @@
 useSeoMeta({
   ogTitle: 'Nextron - Configuration',
   ogDescription: "Configuration, see any config values that you can modify.",
-  ogImage: '/logo.png',
+  ogImage: '/logo.webp',
   ogUrl: 'https://essentialsp.tk/wiki/configuration',
   ogType: 'website',
   ogSiteName: 'Nextron - Configuration',
   twitterTitle: 'Nextron - Configuration',
   twitterDescription: "Configuration, see any config values that you can modify.",
-  twitterImage: '/logo.png',
+  twitterImage: '/logo.webp',
   twitterCard: 'summary'
 })
 

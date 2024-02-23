@@ -106,10 +106,6 @@
     font-size: 14px;
     line-height: 21px;
   }
-
-  .important {
-    margin-top: 60px;
-  }
 }
 
 @media (max-width: 600px) {
@@ -242,6 +238,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.01rem;
   font-family: Inter !important;
+  background-color: #171B21;
 }
 
 /*--------------------------------------------------*/
@@ -654,21 +651,8 @@ section {
 /*                   *calculation                   */
 /* calc((viewwidth - 32px - margin in pixels!) * (9/16)) */
 
-
-.important {
-  padding: 5px;
-  padding-inline: 10px;
-  border-radius: 100px;
-  border: 1px solid #2e3034;
-  background: rgba(23, 27, 32, 0.54);
-  backdrop-filter: blur(31px);
-  white-space: nowrap;
-}
-
-
-
 .interior {
-  padding-top: 30px;
+  padding-top: 90px;
 }
 
 

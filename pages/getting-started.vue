@@ -11,13 +11,13 @@
 useSeoMeta({
   ogTitle: 'Nextron - Getting started',
   ogDescription: "Get to know exactly how to setup Nextron",
-  ogImage: '/logo.png',
+  ogImage: '/logo.webp',
   ogUrl: 'https://nextron.tk',
   ogType: 'website',
   ogSiteName: 'Nextron - Getting started',
   twitterTitle: 'Nextron - Getting started',
   twitterDescription: "Get to know exactly how to setup Nextron",
-  twitterImage: '/logo.png',
+  twitterImage: '/logo.webp',
   twitterCard: 'summary'
 })
 

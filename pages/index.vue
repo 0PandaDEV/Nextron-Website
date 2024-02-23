@@ -2,7 +2,6 @@
   <navbar id="nav-bg" />
   <header class="hero">
     <div class="d-flex justify-content-center align-items-center flex-column text-center">
-      <p class="important">The project is currently being renamed!</p>
       <div class="interior">
         <h1 class="display-1">
           Your Nextlevel superpower
@@ -16,13 +15,13 @@
           <div class="d-flex justify-content-center">
             <div class="mr-3">
               <a title="Modrinth download" href="https://modrinth.com/plugin/nextron" rel="noopener" target="_blank"
-                class="btn">
+                class="btn plausible-event-name=Download">
                 Download
                 <span class="material-icons-outlined">chevron_right</span></a>
             </div>
             <div>
               <a title="Github source" href="https://github.com/0pandadev/nextron/" rel="noopener" target="_blank"
-                class="btn btn-outline-dark">
+                class="btn btn-outline-dark plausible-event-name=Github">
                 Code
                 <span class="material-icons-outlined">chevron_right</span></a>
             </div>
@@ -30,7 +29,7 @@
         </div>
       </div>
       <div class="container-hero">
-        <nuxt-img format="webp" width="1200" src="/hero.png" class="fluid-img" alt="hero" />
+        <img format="webp" width="1200" src="/hero.webp" class="fluid-img" alt="hero" />
       </div>
     </div>
   </header>
@@ -61,10 +60,10 @@
               </li>
             </ul>
           </div>
-          <nuxt-img format="webp" src="/1.png" loading="lazy" alt="1" class="section-image" />
+          <img format="webp" src="/1.webp" loading="lazy" alt="1" class="section-image" />
         </div>
         <div class="section section-2 reveal-content">
-          <nuxt-img format="webp" src="/2.png" loading="lazy" alt="2" class="section-image" />
+          <img format="webp" src="/2.webp" loading="lazy" alt="2" class="section-image" />
           <div class="section-description">
             <div class="section-title">Tons of commands.</div>
             <div class="section-text">Nextron has tons of useful utility commands that makes your life as a player
@@ -86,7 +85,7 @@
           <div class="section-description">
             <div class="section-title">Multiple languages.</div>
             <div class="section-text">Nextron comes with two languages at the moment but theres planned to be more
-              in the future. If you want to help me translate the project join my <a class="highlighted-text"
+              in the future. If you want to help me translate the project join my <a class="highlighted-text plausible-event-name=Discord"
                 href="https://discord.gg/Y7SbYphVw9" target="_blank">discord.</a></div>
             <ul class="subgrid-list">
               <li class="section-list-item"><span data-v-d7356cae="" class="material-icons-outlined icon-done">done</span>
@@ -100,10 +99,10 @@
               </li>
             </ul>
           </div>
-          <nuxt-img format="webp" src="/3.png" loading="lazy" alt="3" class="section-image" />
+          <img format="webp" src="/3.webp" loading="lazy" alt="3" class="section-image" />
         </div>
         <div class="section section-4 reveal-content">
-          <nuxt-img format="webp" src="/4.png" loading="lazy" alt="4" class="section-image" />
+          <img format="webp" src="/4.webp" loading="lazy" alt="4" class="section-image" />
           <div class="section-description">
             <div class="section-title">Fully documented.</div>
             <div class="section-text">Nextron has an extensive <nuxt-link class="highlighted-text"
@@ -156,13 +155,13 @@ export default {
 useSeoMeta({
   ogTitle: 'Nextron',
   ogDescription: "Nextron is a powerful plugin for every Minecraft server. It adds useful features that enhance the game.",
-  ogImage: '/logo.png',
+  ogImage: '/logo.webp',
   ogUrl: 'https://nextron.tk',
   ogType: 'website',
   ogSiteName: 'Nextron',
   twitterTitle: 'Nextron',
   twitterDescription: "Nextron is a powerful plugin for every Minecraft server. It adds useful features that enhance the game.",
-  twitterImage: '/logo.png',
+  twitterImage: '/logo.webp',
   twitterCard: 'summary'
 })
 

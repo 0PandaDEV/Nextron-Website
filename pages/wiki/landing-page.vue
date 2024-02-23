@@ -26,13 +26,13 @@
 useSeoMeta({
   ogTitle: 'Nextron - Landing page',
   ogDescription: "Landing page, all the essential things you need to know.",
-  ogImage: '/logo.png',
+  ogImage: '/logo.webp',
   ogUrl: 'https://essentialsp.tk/wiki/landing-page',
   ogType: 'website',
   ogSiteName: 'Nextron - Landing page',
   twitterTitle: 'Nextron - Landing page',
   twitterDescription: "Landing page, all the essential things you need to know.",
-  twitterImage: '/logo.png',
+  twitterImage: '/logo.webp',
   twitterCard: 'summary'
 })
 

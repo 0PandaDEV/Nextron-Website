@@ -8,14 +8,14 @@ export default defineNuxtConfig({
     head: {
       script: [
         {
-          src: "https://plausible.pandadev.net/js/script.js",
+          src: "https://plausible.pandadev.net/js/script.tagged-events.outbound-links.js",
           defer: true,
-          "data-domain": "essentialsp.tk",
+          "data-domain": "nextron.pandadev.net",
         },
       ],
     },
   },
   site: {
-    url: "https://essentialsp.tk",
+    url: "https://nextron.pandadev.net",
   },
 });
