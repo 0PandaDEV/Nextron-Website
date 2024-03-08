@@ -76,7 +76,7 @@
           </div>
         </div>
         <div class="sub-footer small d-flex justify-content-between">
-          <div class="text-small text-muted">© 2023 Nextron. MIT License.</div>
+          <div class="text-small text-muted">© 2024 Nextron. MIT License.</div>
         </div>
       </div>
     </div>
