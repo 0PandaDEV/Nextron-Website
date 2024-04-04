@@ -8,7 +8,7 @@ export default defineNuxtConfig({
     head: {
       script: [
         {
-          src: "https://plausible.pandadev.net/js/script.tagged-events.outbound-links.js",
+          src: "https://plausible.pandadev.net/js/script.outbound-links.tagged-events.js",
           defer: true,
           "data-domain": "nextron.pandadev.net",
         },
