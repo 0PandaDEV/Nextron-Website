@@ -46,6 +46,8 @@
   }
 
   .header {
+    font-family: MonaSans;
+    font-weight: 600;
     height: 4.5rem;
     font-size: 14px !important;
   }

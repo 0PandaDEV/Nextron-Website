@@ -1,21 +1,3 @@
-@font-face {
-  font-family: ClashDisplay;
-  src: url("~/fonts/ClashDisplay.woff2") format("woff2");
-  font-display: swap;
-}
-
-@font-face {
-  font-family: Material Icons;
-  src: url("~/fonts/Material.woff2") format("woff2");
-  font-display: swap;
-}
-
-@font-face {
-  font-family: Inter;
-  src: url("~/fonts/inder.woff2") format("woff2");
-  font-display: swap;
-}
-
 @media (min-width: 600px) {
 
   /*for Desktop*/
@@ -74,8 +56,8 @@
   }
 
   .display-2 {
-    font-size: 40px;
-    line-height: 52px;
+    font-size: 38px;
+    line-height: 49px;
   }
 
   .text-muted {
@@ -93,7 +75,7 @@
   .h1 {
     font-size: 36px;
     line-height: 50px;
-    font-family: ClashDisplay;
+    font-family: MonaSans;
   }
 
   .footer {
@@ -205,45 +187,11 @@
   }
 }
 
-* {
-  margin: 0px;
-  padding: 0px;
-  scroll-behavior: smooth;
-  scrollbar-color: #b180ff #0d1117;
-  scrollbar-width: thin;
-  box-sizing: border-box;
-}
-
-::-webkit-scrollbar {
-  width: 5px;
-  background-color: #0d1117;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #b180ff;
-}
-
-::-webkit-scrollbar-thumb:window-inactive {
-  background: #b180ff;
-}
-
-html {
-  width: 100%;
-  height: 100%;
-}
-
-body {
-  box-sizing: border-box;
-  color: white;
-  line-height: 1.5;
-  letter-spacing: 0.01rem;
-  font-family: Inter !important;
-  background-color: #171B21;
-}
-
 /*--------------------------------------------------*/
 .hero .display-1 {
   max-width: 800px;
+  letter-spacing: -.1rem;
+  line-height: 74px;
 }
 
 .hero {
@@ -252,7 +200,7 @@ body {
 
 .display-1,
 .display-2 {
-  font-family: ClashDisplay;
+  font-family: MonaSansExpandedSemiBold;
   font-weight: 600 !important;
   letter-spacing: 0;
   color: #f0f6fc;
@@ -260,6 +208,7 @@ body {
 
 .display-2 {
   font-weight: 300;
+  letter-spacing: -.1rem;
 }
 
 .hero .description {
@@ -440,7 +389,7 @@ body {
 }
 
 .section-title {
-  font-family: ClashDisplay;
+  font-family: MonaSansExpandedSemiBold;
   font-weight: 600;
   line-height: 1.2;
   margin-bottom: 1.5rem !important;
@@ -451,7 +400,6 @@ body {
   color: #b1b3b5;
   margin-bottom: 1.5rem;
   font-weight: 500;
-  font-family: inter;
 }
 
 .section-list-item {
@@ -528,7 +476,6 @@ a {
 }
 
 .display-2 {
-  font-family: ClashDisplay;
   font-weight: 600;
   letter-spacing: 0;
   margin: 0;
@@ -555,7 +502,7 @@ section {
   .h1 {
     font-size: 29px;
     line-height: 41px;
-    font-family: ClashDisplay;
+    font-family: MonaSans;
     margin-bottom: 2rem;
   }
 
@@ -601,6 +548,8 @@ section {
 .h1 {
   white-space: nowrap;
   color: #f0f6fc;
+  font-family: MonaSansExpandedSemiBold;
+  letter-spacing: -.1rem;
 }
 
 .sub-footer {

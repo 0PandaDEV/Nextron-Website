@@ -82,7 +82,6 @@ export default {
 }
 
 .sidenav .title {
-  font-family: Inter;
   font-size: 16px;
   line-height: 24px;
   background: none;
@@ -122,7 +121,6 @@ li {
   user-select: none;
   cursor: pointer;
   font-size: 14px;
-  font-family: Inter;
   line-height: 32px;
   color: #cbd5e1;
   position: relative;

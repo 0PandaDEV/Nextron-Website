@@ -91,7 +91,7 @@ export default {
   .h1 {
     font-size: 36px;
     line-height: 50px;
-    font-family: ClashDisplay;
+    font-family: MonaSans;
   }
 
   .text-small {
@@ -154,7 +154,7 @@ section {
   .h1 {
     font-size: 29px;
     line-height: 41px;
-    font-family: ClashDisplay;
+    font-family: MonaSans;
     margin-bottom: 2rem;
   }
 
