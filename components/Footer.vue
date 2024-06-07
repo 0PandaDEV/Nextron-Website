@@ -47,17 +47,6 @@
             </div>
             <div class="column">
               <div>
-                <a title="Privacy" class="item" href="https://example.com"> Privacy </a>
-              </div>
-              <div>
-                <a title="Terms" class="item" href="https://example.com"> Terms </a>
-              </div>
-              <div>
-                <a title="FAQ" class="item" href="https://example.com"> FAQs </a>
-              </div>
-            </div>
-            <div class="column">
-              <div>
                 <a title="Github repository" class="item" href="https://github.com/0pandadev/nextron/" target="_blank">
                   GitHub
                 </a>

@@ -1,5 +1,5 @@
 <template>
-  <navbar id="nav-bg" />
+  <Navbar id="nav-bg" />
   <header class="hero">
     <div class="d-flex justify-content-center align-items-center flex-column text-center">
       <div class="interior">
@@ -126,7 +126,7 @@
       </div>
     </div>
   </section>
-  <foter />
+  <Footer />
 </template>
 
 <script lang="ts">
@@ -187,5 +187,6 @@ useHead({
 })
 </script>
 
-<style>
-@import url("~/css/index.css");</style>
+<style lang="scss">
+@import '~/css/index.scss';
+</style>

@@ -2,15 +2,15 @@
   <navbar id="navbar" />
   <div class="bg-wiki"></div>
   <div class="wiki-hero">
-    <sidebar />
+    <Sidebar />
     <div class="content">
       <slot />
     </div>
   </div>
 </template>
 
-<style>
-@import url("~/css/wiki.css");
+<style lang="scss">
+@import '~/css/wiki.scss';
 
 .bg-wiki {
   background: #0d1117 !important;
